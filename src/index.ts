@@ -2,7 +2,7 @@ import { version } from '../package.json';
 import Behaviors from './behavior';
 import Graph from './graph/graph';
 import TreeGraph from './graph/tree-graph';
-import Shape from './shape';
+import Shape, { Arrow, Marker } from './shape';
 import Layout from './layout';
 import Global from './global';
 import Util from './util';
@@ -53,5 +53,7 @@ export default {
   Grid: Plugins.Grid,
   Bundling: Plugins.Bundling,
   Menu: Plugins.Menu,
-  Algorithm
+  Algorithm,
+  Arrow,
+  Marker
 };
